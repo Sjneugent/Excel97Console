@@ -1,0 +1,14 @@
+c:\users\steven.neugent\documents\visual studio 2013\Projects\ExcelConsoleApp\ExcelConsoleApp\bin\Debug\ExcelConsoleApp.exe.config
+c:\users\steven.neugent\documents\visual studio 2013\Projects\ExcelConsoleApp\ExcelConsoleApp\obj\Debug\ExcelConsoleApp.csprojResolveAssemblyReference.cache
+c:\users\steven.neugent\documents\visual studio 2013\Projects\ExcelConsoleApp\ExcelConsoleApp\obj\Debug\ExcelConsoleApp.csproj.ResolveComReference.cache
+c:\users\steven.neugent\documents\visual studio 2013\Projects\ExcelConsoleApp\ExcelConsoleApp\bin\Debug\ExcelConsoleApp.exe
+c:\users\steven.neugent\documents\visual studio 2013\Projects\ExcelConsoleApp\ExcelConsoleApp\bin\Debug\ExcelConsoleApp.pdb
+c:\users\steven.neugent\documents\visual studio 2013\Projects\ExcelConsoleApp\ExcelConsoleApp\obj\Debug\ExcelConsoleApp.exe
+c:\users\steven.neugent\documents\visual studio 2013\Projects\ExcelConsoleApp\ExcelConsoleApp\obj\Debug\ExcelConsoleApp.pdb
+C:\Git\Excel97COM\ExcelConsoleApp\bin\Debug\ExcelConsoleApp.exe.config
+C:\Git\Excel97COM\ExcelConsoleApp\obj\Debug\ExcelConsoleApp.csproj.ResolveComReference.cache
+C:\Git\Excel97COM\ExcelConsoleApp\obj\Debug\ExcelConsoleApp.exe
+C:\Git\Excel97COM\ExcelConsoleApp\obj\Debug\ExcelConsoleApp.pdb
+C:\Git\Excel97COM\ExcelConsoleApp\bin\Debug\ExcelConsoleApp.exe
+C:\Git\Excel97COM\ExcelConsoleApp\bin\Debug\ExcelConsoleApp.pdb
+C:\Git\Excel97COM\ExcelConsoleApp\obj\Debug\ExcelConsoleApp.csprojResolveAssemblyReference.cache
