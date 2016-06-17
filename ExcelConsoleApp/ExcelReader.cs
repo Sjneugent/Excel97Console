@@ -62,6 +62,10 @@ namespace ExcelConsoleApp
             else
             {
                 Console.Error.WriteLine("Error opening excel file.  Exiting");
+                releaseObject(this.ExcelApplication);
+                releaseObject(this.ExcelWorkbook);
+                releaseObject(this.ExcelWorkSheet);
+                releaseObject(this.ExcelWorkSheets);
                 Environment.Exit(1);
             }
             
@@ -82,6 +86,26 @@ namespace ExcelConsoleApp
             else
             {
                 return this.ExcelWorkSheet;
+            }
+        }
+        //http://csharp.net-informations.com/excel/csharp-read-excel.htm
+        /// <summary>
+        /// Release COM objects
+        /// </summary>
+        /// <param name="obj">COM Object to be released</param>
+        public void releaseObject(object obj)
+        {
+            try
+            {
+                System.Runtime.InteropServices.Marshal.ReleaseComObject(obj);
+                obj = null;
+            }catch (Exception ex)
+            {
+                Console.Error.WriteLine(ex.StackTrace);
+            }
+            finally
+            {
+                GC.Collect();
             }
         }
 

@@ -230,11 +230,30 @@ namespace ExcelConsoleApp
             }
              return "";
         }
-       
-           
-            
-           
-        
+
+        public void clean_up()
+        {
+            releaseObject(this.workSheet);
+         
+        }
+
+        //http://csharp.net-informations.com/excel/csharp-read-excel.htm
+        private void releaseObject(object obj)
+        {
+            try
+            {
+                System.Runtime.InteropServices.Marshal.ReleaseComObject(obj);
+                obj = null;
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine(ex.StackTrace);
+            }
+            finally
+            {
+                GC.Collect();
+            }
+        }
         /// <summary>
         /// ToString method 
         /// </summary>
